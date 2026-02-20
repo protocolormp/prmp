@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Protocolo RMP™ - O método para mães ocupadas perderem de 5 a 12kg em 21 dias sem dietas restritivas.">
+    <title>Protocolo RMP™ - Transformação Corporal para Mães</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Hide body initially to prevent "flash" of scrolled content */
+        body {
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.4s ease-in;
+        }
+    </style>
+    <script>
+        // 1. Critical: Disable browser's automatic scroll restoration
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        // 2. Critical: Disable smooth scrolling instantly to force immediate jump
+        document.documentElement.style.scrollBehavior = 'auto';
+
+        // 3. Force scroll to top immediately (before render)
+        window.scrollTo(0, 0);
+
+        // 4. When DOM is ready, force again and reveal
+        document.addEventListener("DOMContentLoaded", function () {
+            window.scrollTo(0, 0);
+
+            // Reveal content
+            requestAnimationFrame(() => {
+                window.scrollTo(0, 0); // Triple check
+                document.body.style.visibility = 'visible';
+                document.body.style.opacity = '1';
+
+                // Re-enable CSS smooth scrolling for anchor links after page is stable
+                setTimeout(() => {
+                    document.documentElement.style.scrollBehavior = 'smooth';
+                }, 700);
+            });
+        });
+
+        // 5. Fallback for unload
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+            document.body.style.opacity = '0'; // Fade out on exit
+        };
+    </script>
+</head>
+
+<body>
+
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="hero-content fade-in-up">
+
+                <div class="micro-proof-header">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>+3.240 mães transformadas</span>
+                </div>
+
+                <h1 class="main-title-hero">
+                    Perca de <span class="highlight-number">5 a 12kg</span> em 21 Dias Mesmo Sendo Uma Mãe Sem Tempo
+                    <br>
+                    <span class="highlight" style="display:block; font-size: 0.8em; margin-top: 10px;">(Sem Dieta Maluca
+                        e Sem Passar Fome)</span>
+                </h1>
+
+                <p class="headline">
+                    O passo a passo simples para mães ocupadas que não têm tempo para academia e odeiam passar fome.
+                </p>
+
+                <div class="vsl-container glow-border">
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/5OEXNOUm3eM?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=1"
+                        title="Protocolo RMP™" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                </div>
+
+                <a href="https://pay.kiwify.com.br/a7Ey4D0" target="_blank" class="cta-button pulse-animation">
+                    QUERO ME TRANSFORMAR EM 21 DIAS
+                    <span class="btn-subtext">Compra 100% Segura e Garantida</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Story/Intro Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="glass-card fade-in-up">
+                <h2 class="text-center mb-4">Você se identifica com a Carla?</h2>
+
+                <div class="story-content-grid">
+                    <div class="story-text">
+                        <p class="story-intro">Carla tem 38 anos, é mãe e profissional. Sua rotina começa às 6h da manhã
+                            e não para até a noite. Ela me disse algo que talvez você também sinta:</p>
+
+                        <ul class="pain-points-list">
+                            <li>
+                                <i class="fa-regular fa-face-frown"></i>
+                                <span><strong>O espelho:</strong> Você evita o espelho porque dói encarar seu próprio
+                                    corpo.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-shirt"></i>
+                                <span><strong>Roupas apertadas:</strong> As peças favoritas não servem mais e nada cai
+                                    bem.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-battery-quarter"></i>
+                                <span><strong>Energia zerada:</strong> Sente-se exausta o tempo todo, sem ânimo para
+                                    brincar com os filhos.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-heart-crack"></i>
+                                <span><strong>Autoestima no chão:</strong> Sente que perdeu sua feminilidade após a
+                                    maternidade.</span>
+                            </li>
+                        </ul>
+
+                        <div class="highlight-box mt-4">
+                            <p>Ela achava que o problema era ela. <strong>Mas não era.</strong> O corpo dela apenas
+                                "travou" após a gravidez e precisava do estímulo certo para voltar a funcionar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- False Solutions Section -->
+    <section class="false-solutions-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up" style="margin-bottom: 15px;">Por que você ainda não conseguiu?</h2>
+            <p class="section-subtitle fade-in-up delay-100"
+                style="text-align: center; font-size: 1.2rem; color: var(--primary); font-weight: 700; margin-bottom: 60px;">
+                A culpa não é sua. Você só recebeu as orientações erradas.</p>
+            <div class="grid-2">
+                <div class="solution-card glass-panel fade-in-up delay-100">
+                    <div class="icon-box warning"><i class="fa-solid fa-martini-glass-citrus"></i></div>
+                    <h3>Shakes e Chás Milagrosos</h3>
+                    <p>Causam efeito rebote. Você perde água, não gordura, e ganha tudo de volta em dobro depois.</p>
+                </div>
+                <div class="solution-card glass-panel fade-in-up delay-200">
+                    <div class="icon-box warning"><i class="fa-solid fa-ban"></i></div>
+                    <h3>Dietas de Fome</h3>
+                    <p>Desaceleram ainda mais seu metabolismo. Seu corpo entra em "modo de alerta" e estoca gordura.</p>
+                </div>
+                <div class="solution-card glass-panel fade-in-up delay-300">
+                    <div class="icon-box warning"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3>Se Matar na Academia</h3>
+                    <p>Mães cansadas não precisam de mais exaustão. Isso aumenta o cortisol (estresse) e trava o
+                        emagrecimento.</p>
+                </div>
+                <div class="solution-card glass-panel fade-in-up delay-400">
+                    <div class="icon-box warning"><i class="fa-solid fa-pills"></i></div>
+                    <h3>Remédios</h3>
+                    <p>Perigosos, causam dependência e ansiedade. E quando para de tomar, o peso volta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objections/Solution Section -->
+    <section class="objections-section">
+        <div class="container">
+            <h2 class="section-title">A Verdadeira Solução: Protocolo RMP™</h2>
+            <p class="section-subtitle text-center max-w-800 mx-auto">Um método natural, seguro e definitivo.</p>
+
+            <div class="safe-badges text-center mb-5">
+                <span class="badge"><i class="fa-solid fa-check"></i> Sem Hormônios</span>
+                <span class="badge"><i class="fa-solid fa-check"></i> Sem Medicamentos</span>
+                <span class="badge"><i class="fa-solid fa-check"></i> 100% Natural</span>
+            </div>
+
+            <p class="text-center mb-5" style="color: var(--text-muted); font-weight: 600;"><i class="fa-solid fa-flask"
+                    style="color: var(--primary); margin-right: 8px;"></i> Baseado em princípios metabólicos femininos
+                pós-gestação.</p>
+
+            <div class="objections-grid">
+                <div class="objection-item fade-in-left">
+                    <h4><i class="fa-solid fa-clock"></i> Para quem não tem tempo</h4>
+                    <p>Cardápios simples de 15 minutos e estratégias que se encaixam na rotina de mãe.</p>
+                </div>
+                <div class="objection-item fade-in-right">
+                    <h4><i class="fa-solid fa-wallet"></i> Economize Dinheiro</h4>
+                    <p>Mais barato que uma pizza. Sem gastar com suplementos caros ou personal.</p>
+                </div>
+                <div class="objection-item fade-in-left">
+                    <h4><i class="fa-solid fa-utensils"></i> Sem Passar Fome</h4>
+                    <p>Você vai comer comida de verdade, gostosa e que sacia. Nada de passar vontade.</p>
+                </div>
+                <div class="objection-item fade-in-right">
+                    <h4><i class="fa-solid fa-lock"></i> Definitivo</h4>
+                    <p>Ensinamos seu corpo a se manter magro, evitando o terrível efeito sanfona.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Resultados Reais de Mães Reais</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-hover fade-in-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Eliminei 7kg em 18 dias! Voltei a usar minhas calças jeans de antes da gravidez.
+                        Me sinto linda de novo!"</p>
+                    <div class="author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Marina"
+                            class="testimonial-img">
+                        <div>
+                            <strong>Marina S.</strong>
+                            <span>-7kg em 18 dias</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-hover fade-in-up delay-100">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Estava cética, mas tentei. Foram 11kg embora no primeiro ciclo. A energia que
+                        tenho hoje para meus filhos não tem preço."</p>
+                    <div class="author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Juliana"
+                            class="testimonial-img">
+                        <div>
+                            <strong>Juliana M.</strong>
+                            <span>-11kg em 21 dias</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-hover fade-in-up delay-200">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"O melhor foi não passar fome. As receitas são deliciosas e faço em minutos. Meu
+                        marido também amou os resultados!"</p>
+                    <div class="author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Carla" class="testimonial-img">
+                        <div>
+                            <strong>Carla D.</strong>
+                            <span>-6kg em 15 dias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="micro-proof-bottom text-center mt-5">
+                <p>Junte-se a mais de <strong>3.000 mães</strong> que recuperaram a autoestima.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Modules Section -->
+    <section class="modules-section" id="offer">
+        <div class="container">
+            <div class="offer-header">
+                <h2 class="text-gradient">O QUE VOCÊ VAI RECEBER</h2>
+                <p class="subtitle">Acesso Imediato e Vitalício</p>
+            </div>
+
+            <div class="timeline-modules">
+                <!-- Module 1 -->
+                <div class="module-card glass-border fade-in-up">
+                    <div class="module-number">01</div>
+                    <div class="module-content">
+                        <h3>Reset Metabólico (Dias 1-7)</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Cardápio Desinflamatório</li>
+                            <li><i class="fa-solid fa-check"></i> Adeus inchaço em 48 horas</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Module 2 -->
+                <div class="module-card glass-border fade-in-up delay-100">
+                    <div class="module-number">02</div>
+                    <div class="module-content">
+                        <h3>Queima Acelerada (Dias 8-14)</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Ativação natural de queima de gordura</li>
+                            <li><i class="fa-solid fa-check"></i> Alimentação saciante e prática</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Module 3 -->
+                <div class="module-card glass-border fade-in-up delay-200">
+                    <div class="module-number">03</div>
+                    <div class="module-content">
+                        <h3>Consolidação (Dias 15-21)</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Bloqueio do efeito sanfona</li>
+                            <li><i class="fa-solid fa-check"></i> Manutenção simples para a vida toda</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Bonus -->
+                <div class="module-card glass-border fade-in-up delay-300 bonus-card">
+                    <div class="module-number"><i class="fa-solid fa-gift"></i></div>
+                    <div class="module-content">
+                        <h3>BÔNUS EXCLUSIVOS</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> <strong>Guia de Micro-Exercícios:</strong> 12 min em
+                                casa para tonificar.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Manual da Mente Magra:</strong> Reprograme sua
+                                relação com a comida.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee & Price Section -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-card glowing-card">
+                <div class="discount-label">84% DE DESCONTO</div>
+                <h2>Oferta Especial por Tempo Limitado</h2>
+
+                <div class="price-container">
+                    <div class="price-header">
+                        <span class="old-price">De R$ 297,00</span>
+                        <span class="price-separator">por apenas</span>
+                    </div>
+
+                    <div class="big-price">
+                        R$ 47,00
+                    </div>
+
+                    <div class="price-details">
+                        <p>ou 12x de <strong>R$ 4,70</strong></p>
+                        <p class="daily-cost">(Isso é menos de R$ 0,20 por dia!)</p>
+                    </div>
+                </div>
+
+                <a href="https://pay.kiwify.com.br/a7Ey4D0" target="_blank"
+                    class="cta-button final-cta pulse-animation scale-up">
+                    SIM! QUERO EMAGRECER AGORA
+                    <span class="btn-subtext">Acesso Imediato • Risco Zero</span>
+                </a>
+
+                <div class="guarantee-box mt-5">
+                    <div class="seal-icon-small"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Garantia Incondicional de 7 Dias</h3>
+                    <p>Se você não amar o conteúdo, não sentir mais energia ou simplesmente mudar de ideia, nós
+                        devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Dúvidas Comuns</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Preciso comprar suplementos? <i
+                            class="fa-solid fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Não! Tudo o que você precisa é comida de verdade que você encontra em qualquer supermercado
+                            ou feira.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Tenho pouco tempo, serve pra mim? <i
+                            class="fa-solid fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Com certeza. O Protocolo RMP™ foi desenhado especificamente para mães com rotina corrida.
+                            Cardápios e estratégias rápidas.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">E se eu não gostar? <i
+                            class="fa-solid fa-chevron-down"></i></button>
+                    <div class="accordion-content">
+                        <p>Você tem 7 dias para testar. Se não gostar, devolvemos seu dinheiro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Protocolo RMP™. Todos os direitos reservados.</p>
+            <p class="disclaimer">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que
+                você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços
+                para indicar claramente e mostrar todas as provas do produto e usar resultados reais.</p>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a> | <a href="#">Políticas de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA Bar -->
+    <div class="sticky-cta" id="stickyCta">
+        <div class="container flex-cta">
+            <div class="cta-text">
+                <span class="cta-offer">Oferta Exclusiva:</span>
+                <span class="cta-price">R$ 47,00</span>
+            </div>
+            <a href="https://pay.kiwify.com.br/a7Ey4D0" target="_blank" class="mini-cta-button pulse-animation">
+                QUERO COMEÇAR MINHA TRANSFORMAÇÃO AGORA
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
